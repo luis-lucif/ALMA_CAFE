@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-cream: #F9F4EB;
+  --color-coffee: #231A12;
+  --color-copper: #B57B5A;
+  --color-sage: #5D6556;
+  --color-sand: #D1B49D;
+  --font-serif: var(--font-playfair);
+  --font-sans: var(--font-inter);
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-coffee);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  margin: 0;
+}
