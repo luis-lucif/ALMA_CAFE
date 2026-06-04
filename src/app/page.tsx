@@ -32,7 +32,7 @@ export default function Home() {
   };
 
   return (
-    <main className="min-h-screen flex flex-col relative overflow-hidden px-6 py-12 items-center justify-center">
+    <main className="min-h-screen flex flex-col relative overflow-hidden px-6 py-8 items-center justify-center">
       {/* Fondo: Gradiente radial súper suave para dar sensación de profundidad */}
       <div className="absolute inset-0 z-0 pointer-events-none bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-sand/30 via-cream to-cream"></div>
       
@@ -42,20 +42,20 @@ export default function Home() {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="text-center mb-10 flex flex-col items-center"
+          className="text-center mb-8 flex flex-col items-center"
         >
           {/* Logo Image */}
           <div className="mb-6 flex items-center justify-center">
             <Image
               src="/logo.png"
               alt="Alma Café & Resto Logo"
-              width={240}
-              height={240}
+              width={180}
+              height={180}
               className="object-contain drop-shadow-sm"
               priority
             />
           </div>
-          <div className="w-12 h-[2px] bg-copper/60 mb-6 rounded-full"></div>
+          <div className="w-12 h-[2px] bg-copper/60 mb-4 rounded-full"></div>
           <h2 className="font-serif text-xl italic text-coffee/90 font-medium">
             Descubre nuestros sabores
           </h2>
@@ -107,7 +107,7 @@ export default function Home() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.2, duration: 1 }}
-          className="mt-14 text-center"
+          className="mt-8 text-center"
         >
           <div className="flex gap-5 justify-center mb-6">
             {/* Instagram */}
