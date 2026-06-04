@@ -126,6 +126,22 @@ export default function Home() {
                 className="opacity-80 hover:opacity-100 transition-opacity" 
               />
             </a>
+            {/* WhatsApp */}
+            <a 
+              href="https://wa.me/5491136551111" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:scale-110 transition-transform" 
+              aria-label="WhatsApp"
+            >
+              <Image 
+                src="/whats.ico" 
+                alt="WhatsApp de Alma Café" 
+                width={28} 
+                height={28} 
+                className="opacity-80 hover:opacity-100 transition-opacity" 
+              />
+            </a>
           </div>         
         </motion.footer>
       </div>
