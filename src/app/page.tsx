@@ -1,14 +1,10 @@
 "use client";
 
 import { motion, Variants } from "framer-motion";
-import { Coffee, Utensils, Croissant, Wine, Sandwich } from "lucide-react";
+import { Wine, Sandwich } from "lucide-react";
 import Image from "next/image";
 
-// Enlaces a los PDFs
 const menuItems = [
-  { name: "Desayuno", icon: Croissant, href: "/pdf/desayuno.pdf" },
-  { name: "Almuerzo", icon: Utensils, href: "/pdf/almuerzo.pdf" },
-  { name: "Merienda", icon: Coffee, href: "/pdf/merienda.pdf" },
   { name: "Combos", icon: Sandwich, href: "/pdf/combos.pdf" },
   { name: "Tragos", icon: Wine, href: "/pdf/tragos.pdf" },
 ];
