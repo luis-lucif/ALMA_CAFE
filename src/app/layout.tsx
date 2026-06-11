@@ -34,7 +34,7 @@ export default function RootLayout({
       lang="es"
       className={`${inter.variable} ${playfair.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-cream text-coffee font-sans">{children}</body>
+      <body suppressHydrationWarning className="min-h-full flex flex-col bg-cream text-coffee font-sans">{children}</body>
     </html>
   );
 }

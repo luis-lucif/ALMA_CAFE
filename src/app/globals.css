@@ -17,3 +17,10 @@ body {
   min-height: 100vh;
   margin: 0;
 }
+
+/* Ocultar el indicador de desarrollo de Next.js */
+nextjs-portal,
+[data-nextjs-toast],
+[data-nextjs-build-indicator] {
+  display: none !important;
+}
