@@ -1,12 +1,13 @@
 "use client";
 
 import { motion, Variants } from "framer-motion";
-import { Wine, Sandwich } from "lucide-react";
+import { Wine, Sandwich, GlassWater } from "lucide-react";
 import Image from "next/image";
 
 const menuItems = [
   { name: "Combos", icon: Sandwich, href: "/pdf/combos.pdf" },
   { name: "Tragos", icon: Wine, href: "/pdf/tragos.pdf" },
+  { name: "Tragos Sin Alcohol", icon: GlassWater, href: "/pdf/tragosSinAlcohol.pdf" },
 ];
 
 export default function Home() {
